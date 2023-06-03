@@ -9,6 +9,7 @@
 # 详细步骤
 
 0 登录https://www.cloudflare.com/
+
 1 创建应用程序
 ![创建应用程序](img/1createapp.png)
 2 创建worker
