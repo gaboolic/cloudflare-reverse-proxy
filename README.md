@@ -6,6 +6,8 @@
 
 例如https://你的域名/proxy/https://raw.githubusercontent.com/gaboolic/cloudflare-reverse-proxy/main/worker.js
 
+本人另外一个项目是基于[vercel](https://vercel.com/)的反向代理，仓库地址https://github.com/gaboolic/vercel-reverse-proxy 供大家参考
+
 # 详细步骤
 
 0 登录https://www.cloudflare.com/
