@@ -38,4 +38,8 @@
 ![demo1](img/demo1.png)
 例2 调用openai的post接口，https://api.openai.com/v1/chat/completions 前面加https://你的域名/proxy/
 ![demo2](img/demo2.png)
+
+如何在一些常见的开源项目中使用？
+一般开源项目都是引用的openai的库，可以看到里面有一个属性是api_base = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1")
+所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/https://api.openai.com/v1" 就可以了
 更多使用方法也可以参考https://github.com/gaboolic/vercel-reverse-proxy 
