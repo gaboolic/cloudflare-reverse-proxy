@@ -24,11 +24,8 @@
 ![编辑代码](img/4update.png)
 5 把worker.js文件中的内容复制进去，点"保存并部署"
 ![保存并部署](img/5save.png)
-6 (可选) 添加域名 
-查看routers （worker是添加router，pages是添加domain效果一样）
-![查看routers](img/6router.png)
-添加路由
-![添加路由](img/7addrouter.png)
+6 (可选) 添加自定义域
+绑定自己的域名
 
 # 使用方法
 
