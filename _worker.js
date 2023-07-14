@@ -5,7 +5,6 @@ addEventListener('fetch', event => {
   async function handleRequest(request) {
     const url = new URL(request.url);
     const actualUrlStr = url.pathname.replace("/proxy/","")
-    console.log(actualUrlStr)
   
     const actualUrl = new URL(actualUrlStr)
   
