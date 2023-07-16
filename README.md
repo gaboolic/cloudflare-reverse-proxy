@@ -2,9 +2,9 @@
 
 本项目是cloudflare反向代理。在cloudflare网站中新建worker，把worker.js文件中的内容复制进去即可使用。
 
-使用方法为在任意url前面加上https://你的域名/proxy/ 即可使用cloudflare加速。
+使用方法为在任意url前面加上https://你的域名/ 即可使用cloudflare加速。
 
-例如https://你的域名/proxy/https://raw.githubusercontent.com/gaboolic/cloudflare-reverse-proxy/main/worker.js
+例如https://你的域名/https://raw.githubusercontent.com/gaboolic/cloudflare-reverse-proxy/main/worker.js
 
 本人另外一个项目是基于[vercel](https://vercel.com/)的反向代理，仓库地址https://github.com/gaboolic/vercel-reverse-proxy 供大家参考
 
@@ -28,16 +28,16 @@
 
 # 使用方法
 
-在任意url前面加上https://你的域名/proxy/ 即可使用cloudflare加速。
+在任意url前面加上https://你的域名/ 即可使用cloudflare加速。
 
-例1 https://github.com/gaboolic 前面加上https://你的域名/proxy/
+例1 https://github.com/gaboolic 前面加上https://你的域名/
 ![demo1](img/demo1.png)
-例2 调用openai的post接口，https://api.openai.com/v1/chat/completions 前面加https://你的域名/proxy/
+例2 调用openai的post接口，https://api.openai.com/v1/chat/completions 前面加https://你的域名/
 ![demo2](img/demo2.png)
 
 如何在一些常见的开源项目中使用？
 一般开源项目都是引用的openai的库，可以看到里面有一个属性是api_base = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1")
 
-所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/https://api.openai.com/v1" 就可以了
+所以使用的时候只需要设置一下openai.api_base="https://你的域名/https://api.openai.com/v1" 就可以了
 
 更多使用方法也可以参考https://github.com/gaboolic/vercel-reverse-proxy 
