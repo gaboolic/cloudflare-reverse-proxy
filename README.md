@@ -26,6 +26,10 @@
 
 绑定自己的域名。不需要教程了，现在在cloudflare点添加自定义域名，输入子域名自动添加好dns
 
+免费域名申请：https://secure.nom.za/  https://nic.eu.org/   https://nic.ua
+
+不需要申请，link域名0元免费1年：dynadot.com
+
 # 使用方法
 
 在任意url前面加上https://你的域名/proxy/ 即可使用cloudflare加速。
