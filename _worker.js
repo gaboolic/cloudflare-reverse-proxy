@@ -4,12 +4,15 @@ addEventListener('fetch', event => {
   
   async function handleRequest(request) {
     const url = new URL(request.url);
-    const actualUrlStr = url.pathname.replace("/proxy/","")
+    const actualUrlStr = url.pathname.replace("/proxy/","") + url.search + url.hash
   
     const actualUrl = new URL(actualUrlStr)
   
     const modifiedRequest = new Request(actualUrl, {
-      headers: request.headers,
+      headers: {
+        ...request.headers,
+        'Host': actualUrl.hostname
+      },
       method: request.method,
       body: request.body,
       redirect: 'follow'
