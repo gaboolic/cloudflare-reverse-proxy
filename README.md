@@ -14,7 +14,7 @@
 
 1 创建应用程序
 ![创建应用程序](img/1createapp.png)
-2 创建worker（pages也一样，也可以fork此项目在pages里直接部署）
+2 创建worker（pages麻烦一点，需要写一个package.json文件）
 ![创建worker](img/2createworker.png)
 3 点"部署"按钮
 ![创建worker](img/3deploy.png)
