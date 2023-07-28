@@ -14,7 +14,7 @@
 
 1 创建应用程序
 ![创建应用程序](img/1createapp.png)
-2 创建worker（pages麻烦一点，需要写一个package.json文件）
+2 创建worker（pages麻烦一点，需要写一个package.json文件，但pages的好处是分配的域名直接可以用）
 ![创建worker](img/2createworker.png)
 3 点"部署"按钮
 ![创建worker](img/3deploy.png)
