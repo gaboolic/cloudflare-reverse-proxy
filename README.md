@@ -1,3 +1,6 @@
+# 24年6月 解决项目失效问题
+cloudflare work 只支持 ES modules 语法，之前的写法不生效，已经将代码改为了 ES modules 形式。可以正常使用了。 
+
 # cloudflare-reverse-proxy
 
 本项目是cloudflare反向代理。在cloudflare网站中新建worker，把worker.js文件中的内容复制进去即可使用。
