@@ -1,3 +1,7 @@
+# openai 一步到位方案，不用复杂配置
+使用文件 `_worker_openai.js`  中的代码
+使用示例: 在 cloiudflare 中的域名是 https://a.123.dom , 你只需在 在线工具，本地客户端 中配置 baseurl: https://a.123.dom ， 就可以成功转发到 api.openai.com 中
+
 # 24年6月 解决项目失效问题
 cloudflare work 只支持 ES modules 语法，之前的写法不生效，已经将代码改为了 ES modules 形式。可以正常使用了。 
 
